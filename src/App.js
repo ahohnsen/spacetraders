@@ -1,5 +1,9 @@
-function App() {
-  return <div>Hello App</div>;
-}
+import Status from './components/Status';
 
-export default App;
+export default function App() {
+  return (
+    <div>
+      <Status />
+    </div>
+  );
+}
